@@ -1,0 +1,295 @@
+
+@media (min-width: 990px) {
+    .navbar-tog {
+        display: none;
+    }
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+    ::-webkit-scrollbar-track {
+        background: #c5c4c4;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #0c3175;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: #0c3175;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container-allitem-sm {
+        display: block;
+    }
+    .content-first-bg {
+        margin-top: 6%;
+    }
+    .navbar {
+        background: #f7fbfe;
+        padding: 0.2rem;
+    }
+    .logo {
+        width: 10rem;
+    }
+
+    .nav-list-menu li a {
+        font-size: 1rem;
+    }
+    .navbar-register {
+        width: 20rem;
+        text-align: end;
+    }
+    .nav-btn-register {
+        /* width: 3.5rem; */
+        /* height: 1.5rem; */
+        font-size: 12px;
+    }
+    .nav-btn-signin {
+        /* width: 3.5rem; */
+        /* height: 1.5rem; */
+        font-size: 12px;
+    }
+    .content-first-btn {
+        /* width: 7rem; */
+        height: 2.5rem;
+        font-size: 0.1rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+        /* padding: 17px; */
+        font-size: 1rem;
+        border-radius: 2px;
+    }
+    .content-first-area {
+        top: 50%;
+    }
+    .content-second-aboutme h2 {
+        font-size: 2.5rem;
+    }
+    .content-second-aboutme h1 {
+        font-size: 2rem;
+    }
+    .content-second-aboutme p {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    .container-main {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .empty-space {
+        height: 20px;
+    }
+
+    .container-content {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .content-btn-readmore {
+        font-size: 1rem;
+        transition: all 0.3s ease;
+        outline: none;
+        overflow: hidden;
+        position: relative;
+        border: none;
+        padding: 3% 5%;
+    }
+    .content-btn-readmore:after {
+        content: "\00BB";
+        position: absolute;
+        opacity: 0;
+        font-size: 1.5rem;
+        line-height: 18px;
+        top: 1;
+        right: -20px;
+        transition: 0.4s;
+    }
+    .content-btn-readmore:hover {
+        padding-right: 8%;
+    }
+    .content-second-area {
+        padding-top: 0px;
+    }
+    .content-second-logo {
+        padding: 0;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    .content-second-aboutme {
+        padding-left: 10px;
+        padding-right: 0;
+    }
+
+    .item-grid {
+        text-align: center;
+        padding: 10px 5px;
+    }
+    /* .item-detail {
+        height: 2rem;
+    } */
+
+ 
+    .item-detail h2 {
+        font-size: 1rem;
+        /* height: 1rem; */
+    }
+
+    .item-detail h1 {
+        font-size: 0.9rem;
+        height: 1rem;
+    }
+
+    .item-detail-price p {
+        font-size: 0.9rem;
+        color: #27ed82;
+    }
+    .item-detail-price button {
+        font-size: 1rem;
+        box-shadow: inset 0px 0px 5px rgb(253 194 23 / 0%);
+        padding: 0 1rem;
+    }
+    .content-third-itile h2 {
+        font-size: 2rem;
+    }
+    .item-img {
+        width: 85%;
+    }
+    .container-allitem {
+        display: none;
+    }
+    .footer-partner h4 {
+        font-size: 1rem;
+    }
+    .partner-detail-d {
+        height: 20px;
+        width: 20px;
+    }
+    .partner-list {
+        padding: 0px 10px;
+    }
+    .footer-contact p {
+        font-size: 9px;
+    }
+    .footer-contact {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+/* ......................Trade Page..................... */
+
+
+    .bg-tradeDetail {
+        background: linear-gradient(180deg, rgb(248 252 254), #cfe8f7);
+    }
+    .content-tradeDetail {
+        padding-top: 10%;
+    }
+    .text-tradeDetail {
+        margin: 5% 0;
+        width: 100%;
+    }
+    .img-tradeDetail {
+        width: 80%;
+    }
+    .tradeDetail-left {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .tradeDetail-star {
+        font-size: 20px;
+        color: #e740eb;
+    }
+    .tradeDetail-price {
+        padding-top: 20px;
+    }
+    .tradeDetail-price h6 {
+        font-size: 6px;
+        color: #8f8f8f;
+    }
+    .tradeDetail-price h2 {
+        color: #27ed82;
+    }
+    .tradeDetail-price input{
+        border: 0px;
+        background-color: transparent;
+        text-align: center;
+        width: 20px;
+    }
+    .btn-stock {
+        
+        margin: 0 25px;
+        line-height: 0;
+        padding: 0;
+        border-radius: 50%;
+        color: #fff;
+        height: 30px;
+        width: 30px;
+    }
+    
+    .btn-Addtocart {
+        width: 150px;
+        height: 38px;
+        background: transparent;
+        border-radius: 5px;
+        color: #0C3175;
+        padding: 0.2rem 1rem;
+        border: solid 1px #0C3175; 
+        margin-right: 15px;
+    }
+    
+    .btn-Addtocart:hover {
+        color: #FF1A01;
+        transition: all 0.3s ease;
+        transform: scale(1.02);
+    }
+    
+    .btn-Trade {
+        width: 150px;
+        height: 38px;
+        background: #0C3175;
+        border-radius: 5px;
+        color: #ffffff;
+        padding: 5px;
+    }
+    
+    .btn-Trade:hover {
+        transition: all 0.3s ease;
+        color: #ffe107;
+        transform: scale(1.02);
+    
+    
+    }
+    .tradeDetail-name-eng{
+    font-size: 2rem;
+    }
+   
+    .tradeDetail-name h2 {
+        font-size: 1.8rem;
+        margin: 0;
+    }
+    .item-img-detail {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .item-detail-price {
+       position: relative;
+       bottom: 0px;
+    }
+  
+    .tradeDetail-price h3{
+        font-size: 1.6rem;
+    }
+}
+

@@ -1,0 +1,132 @@
+.history-header {
+  background-color: #f2f3f7;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.history-fillter-group {
+  display: flex;
+  width: 50%;
+
+  padding: 0 10px 0 10px;
+
+  justify-content: space-between;
+  align-items: center;
+
+  span {
+    font-size: 12px;
+  }
+}
+
+.history-fillter {
+
+  width: 49%;
+
+  .select2-container {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: solid 0.5px #d1d7dd;
+    border-radius: 5px;
+
+    background: #fff;
+    padding: .3rem 10px;
+
+    .selection {
+      width: 100%;
+    }
+
+    .select2-selection {
+      background-color: transparent;
+      border: 0;
+      width: 100%;
+      padding: 0;
+      display: flex;
+      align-items: center;
+
+      .select2-selection__rendered {
+        color: #9098B1;
+        line-height: 22px;
+        // width: 100%;
+
+      }
+
+      .select2-selection__rendered {
+        width: -webkit-fill-available;
+      }
+
+      .select2-selection__placeholder {
+        width: -webkit-fill-available;
+      }
+
+      .select2-selection__arrow {
+        height: 26px;
+        position: absolute;
+        top: 20%;
+        right: 1px;
+        width: 20px;
+
+      }
+    }
+  }
+
+
+
+}
+.tdClass{
+   text-align: center;
+   
+}
+
+.thClass {
+  text-align: center !important;
+  font-size: .9rem;
+  padding: 0.7em 1.5em 0.7em 0.7em !important;
+}
+
+.line-numbers {
+  font-size: .8rem;
+
+}
+.vgt-table thead th{
+  font-size:12px;
+
+}
+table.vgt-table td {
+  padding: .1rem !important;
+  font-size: 10px;
+}
+
+.bg-withdraw {
+  color: #479e1c !important;
+  
+}
+.bg-pending {
+  background-color: #fcf998;
+  
+}
+.bg-success-col {
+  background-color: #e1ffe8;
+  
+}
+
+.vdp-datepicker * {
+
+  width: 100%;
+:focus-visible {
+  outline: 0;
+}
+  input {
+    display: flex;
+    align-items: center;
+    border: solid 0.5px #d1d7dd;
+    border-radius: 5px;
+    background: #fff;
+    padding: 0.3rem 10px;
+  }
+}
+.vdp-datepicker__clear-button{
+  position: absolute;
+  top: 0;
+}

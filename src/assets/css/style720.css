@@ -1,0 +1,267 @@
+@media (max-width: 720px) {
+    .container-allitem-sm {
+        display: block;
+    }
+    .content-first-bg {
+        margin-top: 6%;
+    }
+    .navbar {
+        background: #f7fbfe;
+        padding: 0.2rem;
+    }
+    .logo {
+        width: 5rem;
+    }
+
+    .nav-list-menu li a {
+        font-size: 9px;
+    }
+    .navbar-register {
+        width: 9rem;
+        text-align: end;
+    }
+    .nav-btn-register {
+        width: 3.5rem;
+        height: 1.5rem;
+        font-size: 9px;
+    }
+    .nav-btn-signin {
+        width: 3.5rem;
+        height: 1.5rem;
+
+        font-size: 9px;
+    }
+    .content-first-btn {
+        width: 5rem;
+        height: 1.5rem;
+        font-size: 0.1rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+        padding: 0px;
+        font-size: 9px;
+        border-radius: 2px;
+    }
+    .content-first-area {
+        top: 50%;
+    }
+    .content-second-aboutme h2 {
+        font-size: 1rem;
+    }
+    .content-second-aboutme h1 {
+        font-size: 1rem;
+    }
+    .content-second-aboutme p {
+        font-size: 0.5rem;
+        line-height: 1rem;
+    }
+    .container-main {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .empty-space {
+        height: 20px;
+    }
+
+    .container-content {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .content-btn-readmore {
+        font-size: 8px;
+        transition: all 0.3s ease;
+        outline: none;
+        overflow: hidden;
+        position: relative;
+        border: none;
+        padding: 3% 5%;
+    }
+    .content-btn-readmore:after {
+        content: "\00BB";
+        position: absolute;
+        opacity: 0;
+        font-size: 0.9rem;
+        line-height: 14px;
+        top: 1;
+        right: -20px;
+        transition: 0.4s;
+    }
+    .content-btn-readmore:hover {
+        padding-right: 15%;
+    }
+    .content-second-area {
+        padding-top: 0px;
+    }
+    .content-second-logo {
+        padding: 0;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    .content-second-aboutme {
+        padding-left: 10px;
+        padding-right: 0;
+    }
+
+    .item-grid {
+        text-align: center;
+        padding: 0 2px;
+    }
+    /* .item-detail {
+        height: 2rem;
+    } */
+    .item-detail h2 {
+        font-size: 8px;
+        height: auto;
+    }
+
+    .item-detail h1 {
+        font-size: 7px;
+        height: auto;
+    }
+
+    .item-detail-price p {
+        font-size: 6px;
+        color: #27ed82;
+    }
+    .item-detail-price button {
+        font-size: 7px;
+        box-shadow: inset 0px 0px 5px rgb(253 194 23 / 0%);
+        padding: 0 5px;
+    }
+    .content-third-itile h2 {
+        font-size: 16px;
+    }
+    .item-img {
+        max-width: 95%;
+    }
+    .container-allitem {
+        display: none;
+    }
+    .footer-partner h4 {
+        font-size: 1rem;
+    }
+    .partner-detail-d {
+        height: 20px;
+        width: 20px;
+    }
+    .partner-list {
+        padding: 0px 10px;
+    }
+    .footer-contact p {
+        font-size: 9px;
+    }
+    .footer-contact {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    /* ......................Trade Page..................... */
+
+    .bg-tradeDetail {
+        background: linear-gradient(180deg, rgb(248 252 254), #cfe8f7);
+    }
+    .content-tradeDetail {
+        padding: 15% 0 0 10px;
+    }
+    .text-tradeDetail {
+        margin: 5% 0;
+        width: 100%;
+    }
+    .img-tradeDetail {
+        width: 95%;
+    }
+    .tradeDetail-left {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0;
+    }
+    .tradeDetail-star {
+        font-size: 0.5rem;
+    }
+    .tradeDetail-price {
+        padding-top: 0;
+    }
+    .tradeDetail-price h6 {
+        font-size: 6px;
+        color: #8f8f8f;
+    }
+    .tradeDetail-price h2 {
+        font-size: 1rem;
+    }
+    .tradeDetail-price h3{
+        font-size: 0.6rem;
+    }
+    .tradeDetail-price input {
+        border: 0px;
+        background-color: transparent;
+        text-align: center;
+        font-size: 0.8rem;
+        width: 25px;
+    }
+    .btn-stock {
+        margin: 0 5px;
+        line-height: 0;
+        padding: 0;
+        border-radius: 50%;
+        color: #fff;
+        height: 20px;
+        width: 20px;
+    }
+
+    .btn-Addtocart {
+        width: 75px;
+        height: 25px;
+        padding: 0.2rem 0;
+        margin-right: 1px;
+        font-size: 0.5rem;
+    }
+
+    .btn-Addtocart:hover {
+        color: #ff1a01;
+        transition: all 0.3s ease;
+        transform: scale(1.02);
+    }
+
+    .btn-Trade {
+        width: 75px;
+        height: 25px;
+        padding: 0;
+        font-size: 0.5rem;
+        font-weight: 100;
+    }
+
+    .btn-Trade:hover {
+        transition: all 0.3s ease;
+        color: #ffe107;
+        transform: scale(1.02);
+    }
+    .tradeDetail-name-eng {
+        font-size: 1rem;
+    }
+    .tradeDetail-name h2 {
+        font-size: 0.8rem;
+        margin: 0;
+    }
+    .item-img-detail {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .item-detail-price {
+       position: relative;
+       bottom: 0px;
+    }
+
+
+}

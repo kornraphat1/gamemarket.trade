@@ -1,0 +1,6 @@
+{
+    "editor.minimap.maxColumn": 100,
+    "editor.formatOnPaste": true,
+    "editor.cursorBlinking": "smooth",
+    "diffEditor.maxComputationTime": 0
+}
