@@ -3,8 +3,13 @@
     <div class="bg-main">
       <div class="container">
         <div class="content-first">
-          <img
+          <!-- <img
             src="@/assets/img/LOLTFT/05115950015845122654900_Teamfight_Tactics_main.jpg"
+            alt=""
+            class="content-first-bg"
+          /> -->
+             <img
+            src="@/assets/img/Background-content.png"
             alt=""
             class="content-first-bg"
           />

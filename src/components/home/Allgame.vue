@@ -35,8 +35,8 @@
           >
           
             <div class="img-game">
-              <!-- <img :src="v.logo ? $IMG_URL + v.logo : $IMG_image" /> -->
-                   <img src="@/assets/img/LOLTFT/05115950015845122654900_Teamfight_Tactics_main.jpg" />
+              <img :src="v.logo ? $IMG_URL + v.logo : $IMG_image" />
+                   <!-- <img src="@/assets/img/LOLTFT/05115950015845122654900_Teamfight_Tactics_main.jpg" /> -->
 
             </div>
           </div>
