@@ -37,7 +37,7 @@
             <span>My&nbsp;items</span></router-link
           >
         </li>
-        <li class="nav-item pb-3">
+        <!-- <li class="nav-item pb-3">
           <a
             :class="{ selected: this.route_name == 'Contact' }"
             data-toggle="modal"
@@ -46,7 +46,7 @@
           >
             <span>Contact&nbsp;Us</span>
           </a>
-        </li>
+        </li> -->
         <li class="nav-item pb-3">
           <div class="loginWi">
             <a
@@ -137,7 +137,7 @@
                 <span>My&nbsp;items</span></router-link
               >
             </li>
-            <li class="nav-item ">
+            <!-- <li class="nav-item ">
               <a
                 :class="{ selected: this.route_name == 'Contact' }"
                 data-toggle="modal"
@@ -146,7 +146,7 @@
               >
                 <span>Contact&nbsp;Us</span>
               </a>
-            </li>
+            </li> -->
           </ul>
         </div>
       </nav>
@@ -201,55 +201,7 @@
       </div>
     </div>
 
-    <div
-      class="modal fade"
-      id="ModalContact"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="ModalContactLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-xl" role="document">
-        <div class="modal-content">
-          <div class="Contact-img-bg showweb">
-            <img src="../assets/img/contact_web.png" />
-          </div>
-          <div class="Contact-img-bg showmo">
-            <img src="../assets/img/contact_mo.png" />
-          </div>
-          <div class="Contact-text">
-            <div class="Contact-text-header">
-              <div class="close-editProfilemodal">
-                <button
-                  type="button"
-                  data-dismiss="modal"
-                  id="dismissConf"
-                  aria-label="Close"
-                  class="btn"
-                >
-                  <span aria-hidden="true">×</span>
-                </button>
-              </div>
-            </div>
-            <div class="Contact-text-body">
-              <div class="Contactus showweb">
-                Contact us
-              </div>
-              <div class="Contactus_th showweb">
-                ติดต่อเรา
-              </div>
-              <div class="LineBtn">
-                <div class="LineBtn-btn">
-                  <a href="https://lin.ee/tHAUwab">
-                    <img src="../assets/img/LINE.png" />@gamemarket.shop</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+   
   </div>
 </template>
 
